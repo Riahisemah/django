@@ -5,7 +5,7 @@ import sys
 
 
 def main():
-    """Run administrative tasks."""
+    """Run administrativ tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'first_ptoject.settings')
     try:
         from django.core.management import execute_from_command_line
